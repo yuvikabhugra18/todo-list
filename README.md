@@ -1,16 +1,18 @@
-# To-Do List App (Python)
+# To-Do List App (Python + SQLite)
 
-A simple command-line To-Do List application with file storage.
+A command-line To-Do List application using SQL database for persistent storage.
 
 ## Features
 - Add tasks
 - View tasks
-- Delete tasks
-- Persistent storage using text file
+- Delete tasks by ID
+- Data stored in SQLite database
+
+## Tech Stack
+- Python
+- SQLite (built-in database)
 
 ## Concepts Used
-- File handling
-- Lists
-- Loops
-- Functions
-- Exception handling
+- CRUD operations
+- SQL queries (INSERT, SELECT, DELETE)
+- Python DB connectivity
